@@ -21,9 +21,5 @@ class About extends CI_Controller {
         $this->load->view('contact/about',$data);
     }
     
-    public function feedback()
-    {
-        //здесь будет код для фидбека
-    }
 
 }
