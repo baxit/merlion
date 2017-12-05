@@ -11,7 +11,7 @@ class News extends CI_Controller {
 
 	public function all() {
 		$data['news']=$this->db->order_by('id','DESC')->get('news')->result_array();
-        print_r($data['news']);die();
+        
 		$this->load->view('news/list',$data);
 	}
     
