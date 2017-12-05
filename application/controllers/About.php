@@ -16,7 +16,6 @@ class About extends CI_Controller {
     public function index()
     {
         $t=$this->db->where('id_guruh',12)->get('talabalar')->result_array();
-      
         $data['talabalar']=$t;
         $this->load->view('contact/about',$data);
     }
