@@ -20,5 +20,10 @@ class About extends CI_Controller {
         $data['talabalar']=$t;
         $this->load->view('contact/about',$data);
     }
+    
+    public function feedback()
+    {
+        //здесь будет код для фидбека
+    }
 
 }
