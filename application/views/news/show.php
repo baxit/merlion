@@ -1,4 +1,4 @@
 <?php
 
-echo "<h1>" . $info['1']['title'] . "</h1>";
-echo $info[1]['text'];
+echo "<h1>" . $info['title'] . "</h1>";
+echo $info['text'];
