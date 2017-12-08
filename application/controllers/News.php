@@ -22,4 +22,11 @@ class News extends CI_Controller {
         $this->load->view('news/show',$data);
     }
     
+    public function delete($id){
+        $r = $this->db->where('id',$id)->delete('news')->result_array();
+        
+        $data['info'] = $r;
+        $this->load->view('news/show',$data);
+    }
+    
 }
