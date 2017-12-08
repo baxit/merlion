@@ -25,6 +25,6 @@ class News extends CI_Controller {
 		
 		$data['info'] = $q;
         $this->load->view('news/delete',$data);
-	}
+	 }
     
 }
