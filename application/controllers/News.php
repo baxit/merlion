@@ -20,7 +20,7 @@ class News extends CI_Controller {
 	}
 
 	public function all() {
-        echo date('D.M.y');
+        echo anchor('http://mail.ru/', 'Сайт мейл.ру');
 		$data['news']=$this->db->order_by('id','DESC')->get('news')->result_array();
 		$this->load->view('news/list',$data);
 		echo date("Y-m-d H:i:s");
