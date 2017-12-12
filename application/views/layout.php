@@ -388,6 +388,11 @@
        
         <!-- Overview boxes -->
         <div class="container pm-containerPadding-top-90">
+            <div class="row">
+                <div class="col-md-12">
+                <?php $this->load->view($content,$data);?>
+                </div>
+            </div>
         	<div class="row">
             
             	<div class="col-lg-4 col-md-4 col-sm-12 pm-center pm-column-spacing">
