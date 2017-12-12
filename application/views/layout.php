@@ -290,8 +290,8 @@
                                 <li>
                                 	<a href="#">News</a>
                                     <ul>
-                                        <li><a href=".../news.html">News Full Width</a></li>
-                                        <li><a href="/news-with-sidebar.html">News with Sidebar</a></li>
+                                        <li><a href="/news/all">News Full Width</a></li>
+                                        <li><a href="/news/add">News with Sidebar</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -958,7 +958,7 @@
                             <li><a href="http://ow.ly/XqzNol">Menus</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="events.html">Browse Events</a></li>
-                            <li><a href="/news.html">News</a></li>
+                            <li><a href="/news">News</a></li>
                             <li><a href="store.html">Store</a></li>
                             <li><a href="catering.html">Catering</a></li>
                         </ul>
