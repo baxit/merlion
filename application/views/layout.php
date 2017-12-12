@@ -388,7 +388,7 @@
        
         <!-- Overview boxes -->
         <div class="container pm-containerPadding-top-90">
-            <div class="row">
+            <div class="row" style="margin-top:80px">
                 <div class="col-md-12">
                 <?php $this->load->view($content,$data);?>
                 </div>
