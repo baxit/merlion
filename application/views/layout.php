@@ -316,6 +316,7 @@
         </header>
         <!-- /Main navigation -->
                 
+        <?php if ($this->uri->segment(1) == ""):?>
         <!-- SLIDER AREA -->
         
         <div class="pm-pulse-container" id="pm-pulse-container">
@@ -382,7 +383,7 @@
         </div>
         
  		<!-- SLIDER AREA end -->
-        
+        <?php endif;?>
         <!-- BODY CONTENT starts here -->
        
         <!-- Overview boxes -->
