@@ -34,6 +34,21 @@ class News extends CI_Controller {
 		$this->db->where('id',$id)->delete('news');
 		redirect('news/all'); //napravlenie na news/all 
 	 }
+     
+     public function update($id){
+        if($this->input->post('title')){
+			$arr=[
+				'title'=> $this->input->post('title'),
+				'text'=> $this->input->post('text'),
+				'date'=> date("Y-m-d H:i:s"),
+			];
+			$this->db->where('id',$id)->update('news', $arr);
+			redirect('news/all');
+		}
+        $n = $this->db->where('id',$id)->get('news')->row_array(); //получили из БД новость №8
+        $data['x'] = $n; //записали эту новость в массив data
+        $this->view_lib->render('news/update',$data); //передали data в вид news/update
+     }
 	 public function q(){
 	 $sql = $this->db->get_compiled_select('mytable');
 	 echo $sql;

@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon.png">
 
     <title>Merlion</title>
-    
+    <script src="/js/ckeditor/ckeditor.js"></script>    
     <link href="/bootstrap3/css/bootstrap.css" rel="stylesheet">
 
     <!-- main css -->
@@ -996,6 +996,7 @@
     <script src="/js/theme-color-selector/theme-color-selector.js"></script>
 	<script src="/js/wow/wow.min.js"></script>
     <script src="/js/pulse/jquery.PMSlider.js"></script>
+    
         
     <p id="back-top" class="visible-lg visible-md visible-sm"> </p>
     
