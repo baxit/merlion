@@ -273,7 +273,7 @@
                                 <li>
                                     <a href="#">Menus</a>
                                     <ul>
-                                        <li><a href="http://ow.ly/XqzNol">Breakfast</a></li>
+                                        <li><a href="/news/show/13">Breakfast</a></li>
                                         <li><a href="http://ow.ly/XqzNol">Lunch</a></li>
                                         <li><a href="http://ow.ly/XqzNol">Dinner</a></li>
                                     </ul>
