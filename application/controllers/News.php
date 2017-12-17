@@ -6,7 +6,9 @@ class News extends CI_Controller {
 
 	public function add()
 	{
-
+        if (!($this->ion_auth->is_admin())){
+            redirect('/');
+        }
 		if($this->input->post('title')){
 			$arr=[
 				'title'=> $this->input->post('title'),
