@@ -19,7 +19,7 @@ class News extends CI_Controller {
         $this->view_lib->render('news/add');
 	}
 
-	public function all() {
+	public function index() {
 		$data['news']=$this->db->order_by('id','DESC')->get('news')->result_array();
 		$this->view_lib->render('news/list',$data);
 	}
@@ -32,7 +32,7 @@ class News extends CI_Controller {
 	}
 	 public function delete($id){
 		$this->db->where('id',$id)->delete('news');
-		redirect('news/all'); //napravlenie na news/all 
+		redirect('news'); //napravlenie na news/all 
 	 }
      
      public function update($id){
@@ -43,7 +43,7 @@ class News extends CI_Controller {
 				'date'=> date("Y-m-d H:i:s"),
 			];
 			$this->db->where('id',$id)->update('news', $arr);
-			redirect('news/all');
+			redirect('news');
 		}
         $n = $this->db->where('id',$id)->get('news')->row_array(); //получили из БД новость №8
         $data['x'] = $n; //записали эту новость в массив data

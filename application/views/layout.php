@@ -75,7 +75,7 @@
   <div class="pm-mobile-global-menu">
                 	
     <div class="pm-mobile-global-menu-logo">
-        <a href="index.html"><img src="img/vienna-logo.png" alt="Vienna Restaurant"></a> 
+        <a href="index.html"><img src="img/vienna-logo.png" alt="Ресторан Мерлион"></a> 
     </div>
     
     <div class="pm-mobile-global-menu-search">
@@ -86,11 +86,11 @@
     
     <ul class="sf-menu pm-nav">
                         
-        <li><a href="index.html">Главная</a></li>
+        <li><a href="news">Главная</a></li>
         <li>
             <a href="#">Меню</a>
             <ul>
-                <li><a href="http://ow.ly/XqzNol">Завтрак</a></li>
+                <li><a href="#">Завтрак</a></li>
                 <li><a href="http://ow.ly/XqzNol">Обед</a></li>
                 <li><a href="http://ow.ly/XqzNol">Ужин</a></li>
             </ul>
@@ -99,7 +99,7 @@
         <li>
             <a href="#">Events</a>
             <ul>
-                <li><a href="http://tiny.cc/lt774xl">Book an Event</a></li>
+                <li><a href="#">Заказывать</a></li>
                 <li><a href="events.html">Browse Events</a></li>
                 <!--<li><a href="#">Social Events</a></li>-->
             </ul>
@@ -200,15 +200,15 @@
                     <div class="col-lg-5 col-md-5 col-sm-6">
                     	
                         <div class="pm-sub-menu-info">
-                        	<p class="pm-address"><i class="fa fa-map-marker"></i> 4 Main Street, New York, NY 02489</p>
-                            <p class="pm-contact"><i class="fa fa-mobile-phone"></i> 1-(800)-555-5555</p>
+                        	<p class="pm-address"><i class="fa fa-map-marker"></i> город Нукус, Туртульская шоссе 111</p>
+                            <p class="pm-contact"><i class="fa fa-mobile-phone"></i> +998913019666</p>
                         </div>
                                                 
                     </div>
                     
                     <div class="col-lg-2 col-md-2 col-sm-6 visible-lg visible-md pm-book-event">
                     	<div class="pm-sub-menu-book-event">
-                        	<a href="http://tiny.cc/lt774xl">Book an Event <i class="fa fa-calendar"></i></a>
+                        	<a href="#">Заказывать <i class="fa fa-calendar"></i></a>
                         </div>
                     </div>
                     
@@ -217,21 +217,22 @@
                         	<li>
                                 <div class="pm-dropdown pm-language-selector-menu">
                                     <div class="pm-dropmenu">
-                                        <p class="pm-menu-title">Language</p>
-                                        <i class="fa fa-angle-down"></i>
+                                        <p class="pm-menu-title">Язык</p>
+                                        <i class=""></i> <!--Б. убрал знак -->
                                     </div>
                                     <div class="pm-dropmenu-active">
                                         <ul>
                                            <li><a href="#">English</a></li>
-                                           <li><a href="#">Italian</a></li>
+                                           <li><a href="#">Русский</a></li>
+                                           <li><a href="#">O'zbek</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
+                            <li><a href="about-us.html">О Нас</a></li>
+                            <li><a href="contact-us.html">Свяжитесь с Нами</a></li>
                             <li class="pm-search-btn-li"><a href="#" class="pm-search-btn" id="pm-search-btn"><i class="fa fa-search"></i></a></li>
-                            <li class="pm-cart-btn-li"><a href="cart.html" class="pm-cart-btn"><i class="fa fa-shopping-cart"></i></a></li>
+                           <!--Б  <li class="pm-cart-btn-li"><a href="cart.html" class="pm-cart-btn"><i class="fa fa-shopping-cart"></i></a></li>-->
                         </ul>
                     </div>
                     
@@ -253,7 +254,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
-                    		<a href="index.html"><img src="img/vienna-logo.png" class="img-responsive pm-header-logo" alt="Vienna Restaurant"></a> 
+                    		<a href="/index.html"><img src="img/vienna-logo.png" class="img-responsive pm-header-logo" alt="Ресторан Мерлион"></a> 
                         </div>
                         
                         <div class="pm-header-mobile-btn-container">
@@ -269,29 +270,29 @@
                         
                         	<ul class="sf-menu pm-nav">
                         
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/">Главная</a></li>
                                 <li>
-                                    <a href="#">Menus</a>
+                                    <a href="#">Меню</a>
                                     <ul>
-                                        <li><a href="/news/show/13">Breakfast</a></li>
-                                        <li><a href="http://ow.ly/XqzNol">Lunch</a></li>
-                                        <li><a href="http://ow.ly/XqzNol">Dinner</a></li>
+                                        <li><a href="/news/show/13">Завтрак</a></li>
+                                        <li><a href="/news/show/11">Обед</a></li>
+                                        <li><a href="/news/show/8">Ужин</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="gallery.html">Галерея</a></li>
                                 <li>
-                                	<a href="#">Events</a>
+                                	<a href="#">События</a>
                                     <ul>
-                                        <li><a href="http://tiny.cc/lt774xl">Book an Event</a></li>
-                                        <li><a href="events.html">Browse Events</a></li>
+                                        <li><a href="#">Заказывать</a></li>
+                                        <li><a href="/events.html">Просмотрите События</a></li>
                                         <!--<li><a href="#">Social Events</a></li>-->
                                     </ul>
                                 </li>
                                 <li>
-                                	<a href="#">News</a>
+                                	<a href="#">Новости</a>
                                     <ul>
-                                        <li><a href="/news/all">News Full Width</a></li>
-                                        <li><a href="/news/add">News with Sidebar</a></li>
+                                        <li><a href="/news">Полная Новости</a></li>
+                                        <li><a href="/news/add">Добавить </a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -336,11 +337,9 @@
                     
                         <div class="pm-holder">
                             <div class="pm-caption">
-                                  <h1><span>Welcome to Vienna</span></h1>
-                                  <span class="pm-caption-decription">
-                                    A premium restaurant theme 
-                                  </span>
-                                  <a href="menus.html" class="pm-slide-btn animated">View our menus <i class="fa fa-chevron-right"></i></a>
+                                  <h1><span>MerLion</span></h1>
+                                  <span class="pm-caption-decription">Премиальная тема ресторана</span>
+                                  <a href="news" class="pm-slide-btn animated">Рассмотрите наши меню <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div>
                     
@@ -383,7 +382,7 @@
         </div>
         
  		<!-- SLIDER AREA end -->
-        <?php endif;?>
+       <?php endif;?> 
         <!-- BODY CONTENT starts here -->
        
         <!-- Overview boxes -->
@@ -960,8 +959,8 @@
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-12 pm-footer-navigation-col">
                         <ul class="pm-footer-navigation" id="pm-footer-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="http://ow.ly/XqzNol">Menus</a></li>
+                            <li><a href="news">Главная</a></li>
+                            <li><a href="/http://ow.ly/XqzNol">Меню</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="events.html">Browse Events</a></li>
                             <li><a href="/news">News</a></li>

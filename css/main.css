@@ -2154,6 +2154,7 @@ header.fixed .pm-header-logo {
 /* 29. Menu item */
 .pm-menu-item-container {
 	width:100%;
+	min-height: 250px;
 	height:auto;
 	overflow:hidden;
 	border:1px solid #e5e5e5;
