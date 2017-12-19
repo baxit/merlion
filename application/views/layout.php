@@ -284,7 +284,7 @@
                                 	<a href="#">События</a>
                                     <ul>
                                         <li><a href="#">Заказывать</a></li>
-                                        <li><a href="news">Просмотрите События</a></li>
+                                        <li><a href="news">Просмотрите События</a><span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span></li>
                                         <!--<li><a href="#">Social Events</a></li>-->
                                     </ul>
                                 </li>
