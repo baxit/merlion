@@ -14,7 +14,7 @@ class Menu extends CI_Controller {
 				'date'=> date("Y-m-d H:i:s"),
 			];
 			$this->db->insert('menu', $arr);
-			redirect('menu/all');
+			redirect('menu');
 		}
         $this->view_lib->render('menu/add');
 	}

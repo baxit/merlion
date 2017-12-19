@@ -284,7 +284,7 @@
                                 	<a href="#">События</a>
                                     <ul>
                                         <li><a href="#">Заказывать</a></li>
-                                        <li><a href="/events.html">Просмотрите События</a></li>
+                                        <li><a href="news">Просмотрите События</a></li>
                                         <!--<li><a href="#">Social Events</a></li>-->
                                     </ul>
                                 </li>
@@ -349,11 +349,11 @@
                         
                         <div class="pm-holder">
                             <div class="pm-caption">
-                                  <h1><span>Witness the beauty</span></h1>
+                                  <h1><span>Галерея</span></h1>
                                   <span class="pm-caption-decription">
-                                    Browse our gallery and see what makes Vienna great!
+                                  Просмотрите нашу галерею и смотрите то, что делает Мердионе!
                                   </span>
-                                  <a href="gallery.html" class="pm-slide-btn animated">View our Gallery <i class="fa fa-chevron-right"></i></a>
+                                  <a href="gallery.html" class="pm-slide-btn animated">Рассмотрите Галерею</a>
                                   
                             </div>
                         </div>
