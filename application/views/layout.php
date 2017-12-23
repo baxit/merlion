@@ -75,16 +75,16 @@
   <div class="pm-mobile-global-menu">
                 	
     <div class="pm-mobile-global-menu-logo">
-        <a href="index.html"><img src="img/vienna-logo.png" alt="Ресторан Мерлион"></a> 
+        <a href="news"><img src="img/mer-logo.png" alt="Ресторан Мерлион"></a> 
     </div>
     
     <div class="pm-mobile-global-menu-search">
     	<form action="#" method="post">
-            <input name="" type="text" class="pm-search-field-mobile" placeholder="Type Keywords...">
+            <input name="" type="text" class="pm-search-field-mobile" placeholder="Поиск...">
         </form>
     </div>
     
-    <ul class="sf-menu pm-nav">
+     <ul class="sf-menu pm-nav">
                         
         <li><a href="news">Главная</a></li>
         <li>
@@ -174,7 +174,7 @@
                 	
                     <div class="col-lg-10 col-md-10 col-sm-10">
                     	<form action="#" method="post">
-                        	<input name="pm_search_field" type="text" class="pm-search-field-header" placeholder="Type Keywords...">
+                        	<input name="pm_search_field" type="text" class="pm-search-field-header" placeholder="Поиск...">
                         </form>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2">
@@ -254,7 +254,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
-                    		<a href="/index.html"><img src="img/vienna-logo.png" class="img-responsive pm-header-logo" alt="Ресторан Мерлион"></a> 
+                    		<a href="/"><img src="img/mer-logo.png" class="img-responsive pm-header-logo" alt="Ресторан Мерлион"></a> 
                         </div>
                         
                         <div class="pm-header-mobile-btn-container">
@@ -272,7 +272,7 @@
                         
                                 <li><a href="/">Главная</a></li>
                                 <li>
-                                    <a href="#">Меню</a>
+                                    <a href="/menu">Меню</a>
                                     <ul>
                                         <li><a href="/news/show/13">Завтрак</a></li>
                                         <li><a href="/news/show/11">Обед</a></li>
@@ -296,10 +296,11 @@
                                     </ul>
                                 </li>
                                 <li>
-                                	<a href="#">Store</a>
+                                	<a href="#">Персоналы</a>
                                     <ul>
-                                        <li><a href="store.html">Browse Store</a></li>
-                                        <li><a href="cart.html">View Cart</a></li>
+                                        <li><a href="store.html">11111</a></li>
+                                        <li><a href="store.html">Кухня</a></li>
+                                        <li><a href="cart.html">Официанты</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="catering.html">Catering</a></li>
@@ -333,13 +334,13 @@
                 <ul class="pm-slides-container" id="pm_slides_container">
                     
                     <!-- FULL WIDTH slides -->
-                    <li data-thumb="img/slider/1a.jpg" class="pmslide_0"><img src="img/slider/slide1.jpg" alt="img01" />
+                    <li data-thumb="img/slider/1a.jpg" class="pmslide_0"><img src="/item5.jpg" alt="img01" />
                     
                         <div class="pm-holder">
                             <div class="pm-caption">
                                   <h1><span>MerLion</span></h1>
                                   <span class="pm-caption-decription">Премиальная тема ресторана</span>
-                                  <a href="news" class="pm-slide-btn animated">Рассмотрите наши меню <i class="fa fa-chevron-right"></i></a>
+                                  <a href="menu" class="pm-slide-btn animated">Рассмотрите наши меню <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div>
                     
@@ -351,9 +352,9 @@
                             <div class="pm-caption">
                                   <h1><span>Галерея</span></h1>
                                   <span class="pm-caption-decription">
-                                  Просмотрите нашу галерею и смотрите то, что делает Мердионе!
+                                  Просмотрите нашу галерею и смотрите то, что делает Мерлионе!
                                   </span>
-                                  <a href="gallery.html" class="pm-slide-btn animated">Рассмотрите Галерею</a>
+                                  <a href="gallery" class="pm-slide-btn animated">Рассмотрите Галерею</a>
                                   
                             </div>
                         </div>
@@ -735,7 +736,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12 pm-widget-footer">
-                    	<img src="img/vienna-logo.png" class="img-responsive" alt="Vienna Restaurant"> 
+                    	<img src="img/mer-logo.png" class="img-responsive" alt="Vienna Restaurant"> 
                         <p>
                         Vienna a premium restaurant theme designed for restaurant and bar owners. This theme features many practical elements such as a catering and event form, photo gallery, events system, blog system and a menu system. Vienna is also WordPress and Woocommerce ready and is designed on an 1170 grid for bootstrap 3.
                         </p>
