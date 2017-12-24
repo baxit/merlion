@@ -56,6 +56,7 @@ class Admin extends CI_Controller {
 			$crud->set_theme('datatables');
 			$crud->set_table('news');
             $crud->set_relation('author_id','users','username');
+            $crud->unset_back_to_list();
 
 			$crud->required_fields('title');
 			$crud->required_fields('text');

@@ -254,7 +254,9 @@
                     <div class="col-lg-4 col-md-4 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
-                    		<a href="/"><img src="img/mer-logo.png" class="img-responsive pm-header-logo" alt="Ресторан Мерлион"></a> 
+                    		<a href="/" class="visible-xs"><img src="img/mer-logo.png" class="img-responsive pm-header-logo" alt="Ресторан Мерлион">
+                    		<a href="/" class="hidden-xs"><img src="img/mer-logo.png" class="pm-header-logo" height="70" alt="Ресторан Мерлион">
+                            </a> 
                         </div>
                         
                         <div class="pm-header-mobile-btn-container">
