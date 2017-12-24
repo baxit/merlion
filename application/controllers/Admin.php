@@ -56,6 +56,7 @@ class Admin extends CI_Controller {
 			$crud->set_theme('datatables');
 			$crud->set_table('news');
             $crud->set_relation('author_id','users','username');
+            $crud->set_relation('category_id', 'categories', 'category_name');
             $crud->unset_back_to_list();
 
 			$crud->required_fields('title');
@@ -68,17 +69,11 @@ class Admin extends CI_Controller {
 			$this->_example_output($output);
 	}
 
-	public function customers_management()
+	public function categories()
 	{
 			$crud = new grocery_CRUD();
 
-			$crud->set_table('customers');
-			$crud->columns('customerName','contactLastName','phone','city','country','salesRepEmployeeNumber','creditLimit');
-			$crud->display_as('salesRepEmployeeNumber','from Employeer')
-				 ->display_as('customerName','Name')
-				 ->display_as('contactLastName','Last Name');
-			$crud->set_subject('Customer');
-			$crud->set_relation('salesRepEmployeeNumber','employees','lastName');
+			$crud->set_table('categories');
 
 			$output = $crud->render();
 
