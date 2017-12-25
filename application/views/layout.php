@@ -195,12 +195,12 @@
         
         	<div class="container">
             
-            	<div class="row">
+            	<div class="row hidden-xs">
                 	
                     <div class="col-lg-5 col-md-5 col-sm-6">
                     	
                         <div class="pm-sub-menu-info">
-                        	<p class="pm-address"><i class="fa fa-map-marker"></i> город Нукус, Туртульская шоссе 111</p>
+                        	<p class="pm-address"><i class="fa fa-map-marker "></i> город Нукус, Туртульская шоссе 111</p>
                             <p class="pm-contact"><i class="fa fa-mobile-phone"></i> +998913019666</p>
                         </div>
                                                 
@@ -251,11 +251,11 @@
             
             	<div class="row">
                 	
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
                     		<a href="/" class="visible-xs"><img src="img/mer-logo.png" class="img-responsive pm-header-logo" alt="Ресторан Мерлион">
-                    		<a href="/" class="hidden-xs"><img src="img/mer-logo.png" class="pm-header-logo" height="70" alt="Ресторан Мерлион">
+                    		</a><a href="/" class="hidden-xs"><img src="img/mer-logo.png" class="pm-header-logo" height="70" alt="Ресторан Мерлион">
                             </a> 
                         </div>
                         
@@ -266,7 +266,7 @@
                     
                     </div>
                     
-                    <div class="col-lg-8 col-md-8 col-sm-8 pm-main-menu">
+                    <div class="col-lg-9 col-md-9 col-sm-9 pm-main-menu">
                                         
                     	<nav class="navbar-collapse collapse">
                         
