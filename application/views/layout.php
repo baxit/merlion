@@ -90,9 +90,13 @@
         <li>
             <a href="#">Меню</a>
             <ul>
-                <li><a href="#">Завтрак</a></li>
-                <li><a href="http://ow.ly/XqzNol">Обед</a></li>
-                <li><a href="http://ow.ly/XqzNol">Ужин</a></li>
+            <li><a href="/menu">Салаты</a></li>
+            <li><a href="#">Холодные Закуски</a></li>
+            <li><a href="#">Первые блюда</a></li>
+            <li><a href="#">Вторые блюда</a></li>
+            <li><a href="#">Паста</a></li>
+            <li><a href="#">Десерт</a></li>
+            <li><a href="#">Напитки</a></li>
             </ul>
         </li>
         <li><a href="gallery.html">Галерея</a></li>
@@ -119,7 +123,7 @@
                 <!--<li><a href="#">Customer Login</a></li>-->
             </ul>
         </li>
-        <li><a href="catering.html">Catering</a></li>
+        <li><a href="catering.html">Поставка</a></li>
     
     </ul>
         
@@ -274,13 +278,17 @@
                         
                                 <li><a href="/">Главная</a></li>
                                 <li>
-                                    <a href="/menu">Меню</a>
+                                    <a href="#">Меню</a>
                                     <ul>
-                                        <li><a href="/news/show/13">Завтрак</a></li>
-                                        <li><a href="/news/show/11">Обед</a></li>
-                                        <li><a href="/news/show/8">Ужин</a></li>
+                                    <li><a href="/menu">Салаты</a></li>
+                                    <li><a href="#">Холодные Закуски</a></li>
+                                    <li><a href="#">Первые блюда</a></li>
+                                    <li><a href="#">Вторые блюда</a></li>
+                                    <li><a href="#">Паста</a></li>
+                                    <li><a href="#">Десерт</a></li>
+                                    <li><a href="#">Напитки</a></li>
                                     </ul>
-                                </li>
+                                    </li>
                                 <li><a href="gallery.html">Галерея</a></li>
                                 <li>
                                 	<a href="#">События</a>
@@ -305,7 +313,7 @@
                                         <li><a href="cart.html">Официанты</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="catering.html">Catering</a></li>
+                                <li><a href="catering.html">Поставка</a></li>
                             
                             </ul>
                         
@@ -405,7 +413,7 @@
                     
                     <h6>say hello to vienna</h6>
                     
-                    <p>A powerful restaurant theme for restaurants, bars and catering companies.</p>
+                    <p>Сильная тема ресторана для ресторанов, баров и кейтеринговых компаний.</p>
                     
                     <a href="about-us.html" class="pm-rounded-btn animated pm-primary">learn more about us <i class="fa fa-angle-right"></i></a>
                     
@@ -740,7 +748,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12 pm-widget-footer">
                     	<img src="img/mer-logo.png" class="img-responsive" alt="Vienna Restaurant"> 
                         <p>
-                        Vienna a premium restaurant theme designed for restaurant and bar owners. This theme features many practical elements such as a catering and event form, photo gallery, events system, blog system and a menu system. Vienna is also WordPress and Woocommerce ready and is designed on an 1170 grid for bootstrap 3.
+                        Мерлион премиальная тема ресторана, разработанная для владельцев ресторанов и баров. Эта тема показывает много практических элементов, таких как поставка и форма событий, фотогалерея, система событий, система блога и система меню. MerLion - также WordPress и готовый Woocommerce.
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 pm-widget-footer">
