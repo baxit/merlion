@@ -8,16 +8,16 @@ class About extends CI_Controller {
 
 	public function contact()
     {
-		$data['talabalar']=$this->db->order_by('h_tel','DESC')->get('talabalar')->result_array();
+		$data['about']=$this->db->order_by('h_tel','DESC')->get('about')->result_array();
 	
-		$this->load->view('contact/contact',$data);
+		$this->load->view('about',$data);
 	}
  
     public function index()
     {
-        $t=$this->db->where('id_guruh',12)->get('talabalar')->result_array();
-        $data['talabalar']=$t;
-        $this->load->view('contact/about',$data);
+        $t=$this->db->where('id',1)->get('about')->result_array();
+        $data['about']=$t;
+        $this->load->view('about',$data);
     }
     
 

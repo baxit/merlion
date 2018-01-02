@@ -74,9 +74,6 @@
   
   <div class="pm-mobile-global-menu">
                 	
-    <div class="pm-mobile-global-menu-logo">
-        <a href="news"><img src="img/mer-logo.png" alt="Ресторан Мерлион"></a> 
-    </div>
     
     <div class="pm-mobile-global-menu-search">
     	<form action="#" method="post">
@@ -130,41 +127,7 @@
   </div><!-- /pm-mobile-nav-overlay -->
   
   <!-- Theme color selector -->
-  <div id="pm_theme_color_selector">
-        <a class="pm_theme_color_selector_btn"><i class="typcn typcn-cog"></i></a>
-        <p class="pm_theme_color_selector_title">Style Sampler</p>
-
-        <div class="pm_theme_color_selector_container">
-        	<p>Layout Style</p>
-        	<select name="pm_theme_color_selector_mode" id="pm_theme_color_selector_mode">
-        	  <option value="pm-full-mode" selected>Fullscreen</option>
-              <option value="pm-boxed-mode">Boxed Mode</option>
-        	</select>
-        </div>
-        <div class="pm_theme_color_selector_container">
-        	<p>Patterns for Boxed Mode</p>
-        	<ul class="pm_theme_img_selector" id="pm_theme_pattern_selector">
-                <li><a href="#" id="pattern1"><img src="img/boxed-patterns/pattern1.png" alt="pattern1"></a></li>
-                <li><a href="#" id="pattern2"><img src="img/boxed-patterns/pattern2.png" alt="pattern2"></a></li>
-                <li><a href="#" id="pattern3"><img src="img/boxed-patterns/pattern3.png" alt="pattern3"></a></li>
-                <li><a href="#" id="pattern4"><img src="img/boxed-patterns/pattern4.png" alt="pattern4"></a></li>
-                <li><a href="#" id="pattern5"><img src="img/boxed-patterns/pattern5.png" alt="pattern5"></a></li>
-                <li><a href="#" id="pattern6"><img src="img/boxed-patterns/pattern6.png" alt="pattern6"></a></li>
-            </ul>
-        </div>
-        
-        <div class="pm_theme_color_selector_container">
-        	<p>Backgrounds for Boxed Mode</p>
-        	<ul class="pm_theme_img_selector" id="pm_theme_background_selector">
-                <li><a href="#" id="1a"><img src="img/boxed-bgs/1.jpg" alt="bg1"></a></li>
-                <li><a href="#" id="2a"><img src="img/boxed-bgs/2.jpg" alt="bg2"></a></li>
-                <li><a href="#" id="3a"><img src="img/boxed-bgs/3.jpg" alt="bg3"></a></li>
-                <li><a href="#" id="4a"><img src="img/boxed-bgs/4.jpg" alt="bg4"></a></li>
-                <li><a href="#" id="5a"><img src="img/boxed-bgs/5.jpg" alt="bg5"></a></li>
-            </ul>
-        </div>
-   
-    </div>
+  <!--Удалиль что-то-->
     <!-- Theme color selector -->
     
 
@@ -233,7 +196,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="about-us.html">О Нас</a></li>
+                            <li><a href="about">О Нас</a></li>
                             <li><a href="contact-us.html">Свяжитесь с Нами</a></li>
                             <li class="pm-search-btn-li"><a href="#" class="pm-search-btn" id="pm-search-btn"><i class="fa fa-search"></i></a></li>
                            <!--Б  <li class="pm-cart-btn-li"><a href="cart.html" class="pm-cart-btn"><i class="fa fa-shopping-cart"></i></a></li>-->
@@ -362,7 +325,7 @@
                             <div class="pm-caption">
                                   <h1><span>Галерея</span></h1>
                                   <span class="pm-caption-decription">
-                                  Просмотрите нашу галерею и смотрите то, что делает Мерлионе!
+                                  Просмотрите нашу галерею и смотрите то, что делает !!!!!!!
                                   </span>
                                   <a href="gallery" class="pm-slide-btn animated">Рассмотрите Галерею</a>
                                   
@@ -748,7 +711,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12 pm-widget-footer">
                     	<img src="img/mer-logo.png" class="img-responsive" alt="Vienna Restaurant"> 
                         <p>
-                        Мерлион премиальная тема ресторана, разработанная для владельцев ресторанов и баров. Эта тема показывает много практических элементов, таких как поставка и форма событий, фотогалерея, система событий, система блога и система меню. MerLion - также WordPress и готовый Woocommerce.
+                        !!!!!!! премиальная тема ресторана, разработанная для владельцев ресторанов и баров. Эта тема показывает много практических элементов, таких как поставка и форма событий, фотогалерея, система событий, система блога и система меню. MerLion - также WordPress и готовый Woocommerce.
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 pm-widget-footer">

@@ -7,11 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+<table>
 <?php 
 foreach($talabalar as $b){
     echo $b['title']."<br/>";
     echo $b['text']."<br/>";
 }
-?>    
+?>
+</table>    
 </body>
 </html>

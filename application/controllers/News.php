@@ -22,6 +22,27 @@ class News extends CI_Controller {
 	}
 
 	public function index() {
+        $this->load->library('email');
+
+        $config = Array(
+            'protocol'=>'smtp',
+            'smtp_host'=>'mail.umail.uz',
+            'smtp_post'=>25,
+            'smrp_user'=>'acmtatunf@umail.uz',
+            'smtp_pass'=>'HdW3cCgVAXLe5J1mV2Wg',
+            'mailtype'=>'html',
+            'charset'=>'iso-8859-1',
+        );
+        
+        $this->email->from('acmtatunf@umail.uz', 'privet');
+        $this->email->to('a.kadirov@umail.uz');
+
+        $this->email->subject('Email Test');
+        $this->email->message('Testing the email class.');
+        
+        $this->email->send();
+
+
 		$data['news']=$this->db->order_by('id','DESC')->get('news')->result_array();
 		$this->view_lib->render('news/list',$data);
 	}

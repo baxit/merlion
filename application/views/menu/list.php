@@ -3,7 +3,7 @@
  <div class="col-lg-6 col-md-6 col-sm-6 pm-column-spacing">
                     <div class="pm-menu-item-container">
                     	<div class="pm-menu-item-img-container" style="background-image:url(img/menu/item1.jpg);">
-                        	<div class="pm-menu-item-price"><p>11,000</p></div>
+                        	<div class="pm-menu-item-price"><p><?php echo $x['price'];?> сум</p></div>
                         </div>
                         
                         <div class="pm-menu-item-desc">

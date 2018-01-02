@@ -747,7 +747,7 @@ header.fixed {
 	height:auto;
 	padding:0px;
 	background-image:none;
-	background-color:rgba(0,0,0,0.85);
+	background-color:rgba(88,76,48,0.8);
 }
 
 .pm-header-logo {
@@ -2179,6 +2179,8 @@ header.fixed .pm-header-logo {
 	margin:7px;
 	text-align:center;
 	padding-top: 7px;
+	padding-left: 10px;
+    	padding-right: 10px;
 }
 
 .pm-menu-item-price p {
