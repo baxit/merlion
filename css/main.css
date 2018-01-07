@@ -747,7 +747,7 @@ header.fixed {
 	height:auto;
 	padding:0px;
 	background-image:none;
-	background-color:rgba(88,76,48,0.8);
+	background-color:rgba(0,0,0,0.85);
 }
 
 .pm-header-logo {

@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.png">
 
-    <title>Merlion</title>
+    <title>Bacardi</title>
     <script src="/js/ckeditor/ckeditor.js"></script>    
     <link href="/bootstrap3/css/bootstrap.css" rel="stylesheet">
 
@@ -74,6 +74,9 @@
   
   <div class="pm-mobile-global-menu">
                 	
+    <div class="pm-mobile-global-menu-logo">
+        <a href="news"><img src="img/mer-logo.png" alt="Ресторан Мерлион"></a> 
+    </div>
     
     <div class="pm-mobile-global-menu-search">
     	<form action="#" method="post">
@@ -120,7 +123,7 @@
                 <!--<li><a href="#">Customer Login</a></li>-->
             </ul>
         </li>
-        <li><a href="catering.html">Поставка</a></li>
+        <li><a href="about">О Нас</a></li>
     
     </ul>
         
@@ -196,7 +199,6 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="about">О Нас</a></li>
                             <li><a href="contact-us.html">Свяжитесь с Нами</a></li>
                             <li class="pm-search-btn-li"><a href="#" class="pm-search-btn" id="pm-search-btn"><i class="fa fa-search"></i></a></li>
                            <!--Б  <li class="pm-cart-btn-li"><a href="cart.html" class="pm-cart-btn"><i class="fa fa-shopping-cart"></i></a></li>-->
@@ -218,11 +220,10 @@
             
             	<div class="row">
                 	
-                    <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
                     	
                         <div class="pm-header-logo-container">
-                    		<a href="/" class="visible-xs"><img src="img/mer-logo.png" class="img-responsive pm-header-logo" alt="Ресторан Мерлион">
-                    		</a><a href="/" class="hidden-xs"><img src="img/mer-logo.png" class="pm-header-logo" height="70" alt="Ресторан Мерлион">
+                    		<a href="/" ><img src="img/mer-logo.png" class="img-responsive pm-header-logo" alt="Ресторан Bacardi"></a>
                             </a> 
                         </div>
                         
@@ -233,7 +234,7 @@
                     
                     </div>
                     
-                    <div class="col-lg-9 col-md-9 col-sm-9 pm-main-menu">
+                    <div class="col-lg-8 col-md-8 col-sm-8 pm-main-menu">
                                         
                     	<nav class="navbar-collapse collapse">
                         
@@ -276,7 +277,7 @@
                                         <li><a href="cart.html">Официанты</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="catering.html">Поставка</a></li>
+                                <li><a href="about">О Нас</a></li>
                             
                             </ul>
                         
@@ -307,11 +308,11 @@
                 <ul class="pm-slides-container" id="pm_slides_container">
                     
                     <!-- FULL WIDTH slides -->
-                    <li data-thumb="img/slider/1a.jpg" class="pmslide_0"><img src="/item5.jpg" alt="img01" />
+                    <li data-thumb="img/slider/1a.jpg" class="pmslide_0"><img src="/img/gallery/1.jpg" alt="img01" />
                     
                         <div class="pm-holder">
                             <div class="pm-caption">
-                                  <h1><span>MerLion</span></h1>
+                                  <h1><span>Bacardi</span></h1>
                                   <span class="pm-caption-decription">Премиальная тема ресторана</span>
                                   <a href="menu" class="pm-slide-btn animated">Рассмотрите наши меню <i class="fa fa-chevron-right"></i></a>
                             </div>
@@ -319,7 +320,7 @@
                     
                     </li>
                     
-                    <li data-thumb="img/slider/2a.jpg" class="pmslide_1"><img src="img/slider/slide2.jpg" alt="img02" />
+                    <li data-thumb="img/slider/2a.jpg" class="pmslide_1"><img src="img/gallery/3.jpg" alt="img02" />
                         
                         <div class="pm-holder">
                             <div class="pm-caption">
@@ -374,11 +375,11 @@
                	    	<img src="img/home/image1.jpg" alt="image1">
                     </div>
                     
-                    <h6>say hello to vienna</h6>
+                    <h6>Hellow Bacardi</h6>
                     
                     <p>Сильная тема ресторана для ресторанов, баров и кейтеринговых компаний.</p>
                     
-                    <a href="about-us.html" class="pm-rounded-btn animated pm-primary">learn more about us <i class="fa fa-angle-right"></i></a>
+                    <a href="about" class="pm-rounded-btn animated pm-primary">УЗНАЙТЕ БОЛЬШЕ О Нас <i class="fa fa-angle-right"></i></a>
                     
                 </div>
                 
@@ -388,11 +389,11 @@
                	    	<img src="img/home/image2.jpg" alt="image2">
                     </div>
                     
-                    <h6>we serve authentic cuisine</h6>
+                    <h6>МЫ СЛУЖИМ ДЛя ВАС</h6>
                     
-                    <p>Come experience Vienna for yourself...we’ve been told it’s an unforgettable experience</p>
+                    <p>Приезжайте в Ресторан для вас непосредственно..., нам сказали, что это - незабываемый место</p>
                     
-                    <a href="menus.html" class="pm-rounded-btn animated pm-primary">View our Menus <i class="fa fa-angle-right"></i></a>
+                    <a href="menu" class="pm-rounded-btn animated pm-primary">РАССМОТРИТЕ НАШИ МЕНЮ <i class="fa fa-angle-right"></i></a>
                     
                 </div>
                 
