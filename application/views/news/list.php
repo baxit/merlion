@@ -7,7 +7,7 @@
                         </div>
                         
                         <div class="pm-menu-item-desc">
-                        	<p class="pm-menu-item-title"><?php echo anchor('news/show/'.$x['id'],$x['title']);?></p>
+                        	<p class="pm-menu-item-title"><?php echo anchor('news/show/'.$x['id'], strip_tags($x['title']));?></p>
                             <p class="pm-menu-item-excerpt"><?php echo substr(strip_tags($x['text']),0,200);?></p>
                         </div>
                     </div>
